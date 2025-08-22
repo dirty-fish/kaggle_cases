@@ -9,7 +9,7 @@ def _generate_synthetic(_train_path: str, _test_path: str, _target_col: str = "t
     _X_test = rng.normal(size = (n_test, n_features))
 
     _weight = rng.normal(size = n_features)
-    _logits = _X_train @ _weight * 0.05
+    _logits = _X_train @ _weight * 0.1
     _sigmoid = 1 / (1 + np.exp(-_logits))
     _y = (rng.uniform(size = n_train) < _sigmoid).astype(int)
 

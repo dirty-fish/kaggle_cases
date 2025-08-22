@@ -1,0 +1,34 @@
+├── README.md
+├── configs
+├── data
+│   └── train.csv
+├── file_tree.py
+├── outputs
+│   └── experiments
+├── requirements.txt
+├── run.py
+├── scripts
+├── src
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-311.pyc
+│   │   └── data.cpython-311.pyc
+│   ├── config.py
+│   ├── data.py
+│   ├── features
+│   │   ├── __init__.py
+│   │   ├── pca_simple.py
+│   │   └── row_stats.py
+│   ├── metrics.py
+│   ├── modeling
+│   │   ├── __init__.py
+│   │   ├── cv.py
+│   │   ├── lgbm.py
+│   │   └── logreg.py
+│   └── utils
+│       ├── __init__.py
+│       ├── io.py
+│       └── seeds.py
+└── target
+
+10 directories, 22 files
